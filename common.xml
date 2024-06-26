@@ -13,5 +13,7 @@
         <project path="optee_examples"       name="linaro-swg/optee_examples.git" />
 
         <!-- buildroot git -->
-        <project path="buildroot"            name="buildroot/buildroot.git"               revision="refs/tags/2022.08.3" clone-depth="1" />
+        <project path="buildroot"            name="buildroot/buildroot.git"               revision="refs/tags/2022.05.3" clone-depth="1" />
 </manifest>
+
+<!-- Incorrect selection of gcc version: expected 11.x, got 12.3.0 -->
